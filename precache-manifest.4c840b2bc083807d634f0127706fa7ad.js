@@ -120,20 +120,20 @@ self.__precacheManifest = [
     "url": "/garden_hub2.1/static/media/Roboto-Regular.ba3dcd89.woff"
   },
   {
-    "revision": "dc81817def276b4f21395f7ea5e88dcd",
-    "url": "/garden_hub2.1/static/media/Roboto-Bold.dc81817d.woff"
-  },
-  {
     "revision": "fc78759e93a6cac50458610e3d9d63a0",
     "url": "/garden_hub2.1/static/media/Roboto-Medium.fc78759e.woff"
   },
   {
-    "revision": "94998475f6aea65f558494802416c1cf",
-    "url": "/garden_hub2.1/static/media/Roboto-Thin.94998475.ttf"
+    "revision": "dc81817def276b4f21395f7ea5e88dcd",
+    "url": "/garden_hub2.1/static/media/Roboto-Bold.dc81817d.woff"
   },
   {
     "revision": "46e48ce0628835f68a7369d0254e4283",
     "url": "/garden_hub2.1/static/media/Roboto-Light.46e48ce0.ttf"
+  },
+  {
+    "revision": "94998475f6aea65f558494802416c1cf",
+    "url": "/garden_hub2.1/static/media/Roboto-Thin.94998475.ttf"
   },
   {
     "revision": "df7b648ce5356ea1ebce435b3459fd60",
