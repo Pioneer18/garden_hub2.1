@@ -1,13 +1,33 @@
 {
+  "homepage": "https://pioneer18.github.io/garden_hub2.1/",
   "name": "garden_hub2.1",
   "version": "0.1.0",
+  "main":"server.js",
   "private": true,
+  "contributors": [
+    "Rocky Trice https://github.com/rockytrice"
+  ],
+  "keywords": [
+    "conservation", "IoT", "Arduino", "MQTT","WebSockets","smart-home","smart-gardening"
+  ],
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express-react-views": "^0.10.5",
+    "if-env": "^1.0.4",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.22.2",
+    "passport-local": "^1.0.0",
+    "react-icons-weather": "^1.0.5",
+    "react-moment": "^0.8.1"
   },
   "scripts": {
+    "deploy": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,8 +41,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  ]
 }
