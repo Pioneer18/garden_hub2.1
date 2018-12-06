@@ -27,7 +27,19 @@
     "moment": "^2.22.2",
     "passport-local": "^1.0.0",
     "react-icons-weather": "^1.0.5",
-    "react-moment": "^0.8.1"
+    "react-moment": "^0.8.1",
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "mdbreact": "git+https://oauth2:So7e1mY4Cxrk99irwGWc@git.mdbootstrap.com/mdb/react/re-pro.git",
+    "react-alert": "^4.0.4",
+    "react-chartjs-2": "^2.7.4",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "reactstrap": "^6.4.0",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "ascoltatori": "^4.3.0",
