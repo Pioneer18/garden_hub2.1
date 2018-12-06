@@ -1,0 +1,75 @@
+
+    #classicformpage .view {
+      background-image: url("../../../images/grassBackground.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: fixed center;
+      height: 100vh;
+    }
+    
+    #classicformpage .gradient {
+      background: -webkit-linear-gradient(45deg, rgba(0, 255, 0, 0.3), rgba(0, 255, 0, 0.3)  100%);
+      background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
+      background: linear-gradient( 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+    }
+    
+    #classicformpage .card {
+      background: -webkit-linear-gradient(45deg, rgba(-17, 94, 45, 0.3), rgba(0, 255, 0, 0.3)  100%);
+    }
+    
+    #classicformpage h6 {
+      line-height: 1.7;
+    }
+    
+    #classicformpage .navbar {
+      transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    
+    .top-nav-collapse {
+      background: black !important;
+    }
+    
+    #classicformpage label {
+      color: #fff!important;
+    }
+    
+    
+    input.form-control{
+      color: white
+    }
+    .md-form
+    input[type=text]{
+      color:white;
+    }
+    .md-form .prefix ~ input, .md-form .prefix ~ textarea{
+      color: white
+    }
+
+input {
+  width: 378px
+}
+/* media queries=============================================================================================================== */
+
+@media only screen and (min-width:404px){
+  input{
+    width: 339px;
+  }
+  img.login-pic{
+    width: 400px;
+    height: 200px;
+    margin-bottom: -90px;
+    margin-top: 50px;
+    margin-left: -20px;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  #classicformpage .navbar:not(.top-nav-collapse) {
+      background: transparent !important;
+  }
+}
+
+
+
